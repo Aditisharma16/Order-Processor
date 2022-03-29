@@ -1,0 +1,25 @@
+#add{
+	width:350px;
+}
+.reqd{ 
+	color: red !important;
+}
+
+.table tbody td{
+	vertical-align: middle;
+}
+.btn-incre, .btn-decre{
+	box-shadow: none;
+	font-size: 25px;
+}
+.table th,tr{
+	width:auto;
+	text-align: center;
+}
+#incre-decre-btn{
+	width:200px;
+	margin:auto;
+}
+
+ 
+

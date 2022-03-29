@@ -1,0 +1,164 @@
+#add-to-cart{
+	margin:auto;
+}
+
+.col-lg-4 col-md-6 col-xs-12 col-centered{
+	margin-bottom: 30px;
+}
+
+.card{
+	width: 18rem;
+}
+
+.card-img-top{
+	height:15rem; width:18rem;
+}
+
+.card-body{
+	text-align: center;
+}
+.card-title{
+	margin:auto;
+}
+
+.card-text{
+	margin:auto;
+}
+
+ .modal-header {
+            background: #3445b4;
+            color: #fff;
+        }
+        
+        .modal-header > h5{
+        	color: white;
+        }
+        
+        #close-btn{
+        	background-color: white;
+        }
+        .required:after {
+            content: "*";
+            color: red;
+        }
+
+/*table*/
+ .styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+/* Modal styles */
+.modal .modal-dialog {
+	max-width: 400px;
+}
+.modal .modal-header, .modal .modal-body, .modal .modal-footer {
+	padding: 20px 30px;
+}
+.modal .modal-content {
+	border-radius: 3px;
+	font-size: 14px;
+	text-align:left;
+}
+.modal .modal-footer {
+	background: #ecf0f1;
+	border-radius: 0 0 3px 3px;
+}
+.modal .modal-title {
+	display: inline-block;
+}
+.modal .form-control {
+	border-radius: 2px;
+	box-shadow: none;
+	border-color: #dddddd;
+}
+
+#contactNumber{
+	background-color: #cae5ff;
+}
+
+#shippingAddress{
+	background-color: #cae5ff;
+}
+
+.modal textarea.form-control {
+	resize: vertical;
+}
+.modal .btn {
+	border-radius: 2px;
+	min-width: 100px;
+}	
+.modal form label {
+	font-weight: normal;
+}	
+
+* {
+  box-sizing: border-box;
+  
+}
+
+
+.search{
+	float: right;
+  width: 50%;
+  
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 12px;
+  border: 1px solid grey;
+  float: right;
+  width: 20%;
+  background: #f1f1f1;
+  
+}
+
+/* Style the submit button */
+form.example button {
+  float: right;
+  width: 5%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 12px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+ 
+}
+.example{
+	margin-right:47px;
+}
+
+form.example button:hover {
+  background: #0A66C2;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
